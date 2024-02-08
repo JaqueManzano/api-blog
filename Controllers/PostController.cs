@@ -1,5 +1,5 @@
-﻿using Blog.Data;
-using Blog.Models;
+﻿using Blogv2.Data;
+using Blogv2.Models;
 using Blogv2.ViewModels;
 using Blogv2.ViewModels.Posts;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Blogv2.Controllers
 {
-    [ApiController]
+	[ApiController]
     [Route("v1")]
     public class PostController : ControllerBase
     {

@@ -1,10 +1,10 @@
-using Blog.Data.Mappings;
-using Blog.Models;
+using Blogv2.Data.Mappings;
+using Blogv2.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Blog.Data
+namespace Blogv2.Data
 {
-    public class BlogDataContext : DbContext
+	public class BlogDataContext : DbContext
     {
         public BlogDataContext(DbContextOptions<BlogDataContext> options)
             :base(options)

@@ -1,10 +1,10 @@
-﻿using Blog.Models;
+﻿using Blogv2.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Blog.Data.Mappings
+namespace Blogv2.Data.Mappings
 {
-    public class CategoryMap : IEntityTypeConfiguration<Category>
+	public class CategoryMap : IEntityTypeConfiguration<Category>
     {
         public void Configure(EntityTypeBuilder<Category> builder)
         {

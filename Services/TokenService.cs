@@ -1,9 +1,9 @@
-﻿using System.IdentityModel.Tokens.Jwt;
+﻿using Blogv2.Extensions;
+using Blogv2.Models;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Blog.Models;
-using Blogv2.Extensions;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Blogv2.Services;
 

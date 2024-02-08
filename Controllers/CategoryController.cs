@@ -1,6 +1,6 @@
-﻿using Blog.Data;
-using Blog.Models;
+﻿using Blogv2.Data;
 using Blogv2.Extensions;
+using Blogv2.Models;
 using Blogv2.ViewModels;
 using Blogv2.ViewModels.Categories;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +9,7 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace Blogv2.Controllers
 {
-    [ApiController]
+	[ApiController]
     public class CategoryController : ControllerBase
     {
         private List<Category> GetCategories(BlogDataContext context)

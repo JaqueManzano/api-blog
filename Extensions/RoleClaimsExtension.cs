@@ -1,9 +1,9 @@
-﻿using Blog.Models;
+﻿using Blogv2.Models;
 using System.Security.Claims;
 
 namespace Blogv2.Extensions
 {
-    public static class RoleClaimsExtension
+	public static class RoleClaimsExtension
     {
         public static IEnumerable<Claim> GetClaims(this User user)
         {

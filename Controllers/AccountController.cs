@@ -1,6 +1,6 @@
-﻿using Blog.Data;
-using Blog.Models;
+﻿using Blogv2.Data;
 using Blogv2.Extensions;
+using Blogv2.Models;
 using Blogv2.Services;
 using Blogv2.ViewModels;
 using Blogv2.ViewModels.Accounts;
